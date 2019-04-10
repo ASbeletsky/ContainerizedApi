@@ -9,11 +9,8 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE7517C2-020A-469F-9737-7F6605B4BBF0}"
 	ProjectSection(SolutionItems) = preProject
-		authorized_keys = authorized_keys
 		Dockerfile = Dockerfile
 		DotnetDebug.Dockerfile = DotnetDebug.Dockerfile
-		privateKey.openssh = privateKey.openssh
-		privateKey.ppk = privateKey.ppk
 		sshd_config = sshd_config
 		StartSSHAndApp.sh = StartSSHAndApp.sh
 	EndProjectSection
