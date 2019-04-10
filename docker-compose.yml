@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  containerizedapi:
+    image: ${DOCKER_REGISTRY}containerizedapi
+    build:
+      context: .
+      dockerfile: ContainerizedApi/Dockerfile
